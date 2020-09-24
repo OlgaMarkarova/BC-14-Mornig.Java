@@ -3,9 +3,9 @@ package day9;
 public class Exercises5 {
     public static void main(String[] args) {
         //happyPelmen();
-        //modulaThre();
+        modulaThre();
         // myLine(100);
-        mySecondLine(1000);
+        //mySecondLine(1000);
         /* В девятом классе Вася ездил со своим и
         параллельным классом в Париж. Известно,
         что на двоих учителей нельзя брать в поездку больше 25 детей.

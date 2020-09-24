@@ -4,8 +4,8 @@ public class HelloIf {
     public static void main(String[] args) {
         //ifIntroductionOne();
         //ifIntroductionTwo();
-        //ifIntroductionThree();
-        ifIntroductionFor();
+        ifIntroductionThree();
+        //ifIntroductionFor();
 
 
     }
@@ -36,7 +36,7 @@ public class HelloIf {
         boolean prohibitionDenyDe = true;
 
         if (!prohibitionDenyDe) {// permition == true ==true можно не писать, в permition уже заложено
-            System.out.println("Мщжно поехать в лагерь");
+            System.out.println("Можно поехать в лагерь");
         } else {
 
             System.out.println("Никто не поедет");
