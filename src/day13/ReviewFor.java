@@ -2,10 +2,10 @@ package day13;
 
 public class ReviewFor {
     public static void main(String[] args) {
-        //examplOne();
+        examplOne();
         //examplTwo();
-        examplThree();
-        examplFor();
+        //examplThree();
+        //examplFor();
     }
 
     private static void examplFor() { // !!!так не делают!!!

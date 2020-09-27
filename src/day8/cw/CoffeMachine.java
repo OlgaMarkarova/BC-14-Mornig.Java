@@ -1,4 +1,4 @@
-package day8;
+package day8.cw;
 
 public class CoffeMachine {
     public static void latte() {

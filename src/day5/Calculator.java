@@ -2,8 +2,8 @@ package day5;
 
 public class Calculator {
     public static void main(String[] args) {
-        concatenation();
-        //multiplication();
+        //concatenation();
+        //multiplicationTwo();
         int myLovelyVariable = multiplicationTwo(1, 2, 3, 4);
         System.out.println(myLovelyVariable);
     }

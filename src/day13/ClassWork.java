@@ -2,14 +2,14 @@ package day13;
 
 public class ClassWork {
     public static void main(String[] args) {
-        //myCharAt();
+        myCharAt();
         //myCoddePoint();
         //myCodePointBefore();
         //mycodePointCount();
         //myCompareTo();
         //
         //myCompareToIgnoreCase();
-        myTrim();
+        //myTrim();
 
     }
 

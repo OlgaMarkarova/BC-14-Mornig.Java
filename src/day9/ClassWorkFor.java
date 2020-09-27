@@ -9,6 +9,7 @@ public class ClassWorkFor {
         System.out.println("Итоговый вывод" + sum(0, 10));
     }
 
+
     private static int sum(int a, int b) {
         int result = 0;
         for (int i = a; i <= b; i++) {

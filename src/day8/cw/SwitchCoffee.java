@@ -1,4 +1,4 @@
-package day8;
+package day8.cw;
 
 public class SwitchCoffee {
     public static void main(String[] args) {

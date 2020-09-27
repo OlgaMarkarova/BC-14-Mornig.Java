@@ -1,4 +1,4 @@
-package day12;
+package day12.hw;
 
 public class HW {
     public static void main(String[] args) {

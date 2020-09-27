@@ -1,4 +1,4 @@
-package day9;
+package day9.hw;
 
 public class HW9_2 {
     public static void main(String[] args) {
