@@ -7,7 +7,7 @@ public class HW14 {
         threeAngleOther(10, 10);
         myThreeangleAnother1(10);
         myThreeangleAnother2(10);
-        multiplication();
+        multiplication();//test
     }
 
     private static void multiplication() {
