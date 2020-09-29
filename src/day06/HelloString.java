@@ -6,7 +6,6 @@ public class HelloString {
        student1 = "Elene Prekrasnay";
        student2 = "Ivan Durak";
 
-       //final double MY_PI = Math.PI;
         helloUser(student1);
         helloUser(student2);
         helloUser("Andrey");

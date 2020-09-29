@@ -16,11 +16,11 @@ public class HW14 {
                 int m = i * j;
                 String s = " ";
                 if (m < 10) {
-                    System.out.print(s + s + s + m);
-                } else if (m < 99) {
                     System.out.print(s + s + m);
+                } else if (m < 99) {
+                    System.out.print(s + m);
                 } else {
-                    System.out.println(s + m);
+                    System.out.println(m);
                 }
             }
             System.out.println("");
@@ -80,7 +80,7 @@ public class HW14 {
     }
 
     private static void myRectangle(int a, int b) {
-        String c = "+";
+        String c = "*";
         String d = "-";
         for (int i = 0; i < b; i++) {
             for (int j = 0; j < a; j++) {

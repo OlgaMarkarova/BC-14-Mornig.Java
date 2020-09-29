@@ -2,8 +2,8 @@ package day13;
 
 public class ClassWork {
     public static void main(String[] args) {
-        myCharAt();
-        //myCoddePoint();
+        //myCharAt();
+        myCoddePoint();
         //myCodePointBefore();
         //mycodePointCount();
         //myCompareTo();
