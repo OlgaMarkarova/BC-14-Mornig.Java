@@ -1,6 +1,6 @@
-package day17;
+package day17.hw;
 
-public class HWCesar {
+public class HWCaesar {
     public static void main(String[] args) {
         enigmaCaesar("Съешь же ещё этих мягких французских булок, да выпей чаю.");
     }

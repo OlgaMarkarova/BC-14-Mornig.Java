@@ -1,18 +1,16 @@
 package day15;
 
-public class CWother {
+public class HW15PalindromRub {
     public static void main(String[] args) {
+        printSumInRub(1, 35);
+
         System.out.println(checkPalindrom("А роза упала на лапу Азора"));// ->true
         System.out.println(checkPalindrom("поп"));// ->true
         System.out.println(checkPalindrom("школа"));// ->false
-        /*removeTheSpace("А роза упала на лапу Азора");
-        removeTheSpace("поп");
-        removeTheSpace("школа");*/
+
     }
 
-
-
-        private static String removeTheSpace(String str) {
+    private static String removeTheSpace(String str) {
         String input = "";
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) != ' ') {
@@ -44,5 +42,25 @@ public class CWother {
 
         return true;
     }
- }
+    private static void printSumInRub(int a, int b) {
+        for (int i = a; i <= b; i++) {
+            System.out.println(i + " " + rightWordInRussian(i));
+        }
+    }
+
+    private static String rightWordInRussian(int number) {
+        String output = "";
+        String input = String.valueOf(number);
+        String lastSymbol = "" + input.charAt(input.length() - 1);
+        int lastDigit = Integer.parseInt(lastSymbol);
+        if (number > 10 && number < 15 || lastDigit >= 5 || lastDigit == 0) {
+            output = "рублей";
+        } else if (lastDigit == 1) {
+            output = "рубль";
+        } else {
+            output = "рубля";
+        }
+        return output;
+    }
+}
 

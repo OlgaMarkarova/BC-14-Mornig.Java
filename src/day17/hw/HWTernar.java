@@ -1,4 +1,4 @@
-package day17;
+package day17.hw;
 
 public class HWTernar {
     public static void main(String[] args) {

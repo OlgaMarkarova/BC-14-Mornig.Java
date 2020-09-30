@@ -1,4 +1,4 @@
-package day17;
+package day17.hw;
 
 import java.util.Scanner;
 
