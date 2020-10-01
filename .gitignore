@@ -1,6 +1,4 @@
-.idea/
 .idea
 out
 *.iml
 .DS_Store
-src/.DS_Store
