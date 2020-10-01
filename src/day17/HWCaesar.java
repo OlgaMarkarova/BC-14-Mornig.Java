@@ -1,4 +1,4 @@
-package day17.hw;
+package day17;
 
 public class HWCaesar {
     public static void main(String[] args) {

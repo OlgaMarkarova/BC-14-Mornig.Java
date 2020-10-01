@@ -19,7 +19,7 @@ public class HWTernar {
     }
 
     private static String myFirstCompareTo(String input, String input1) {
-        return (input.codePointBefore(1) < input1.codePointBefore(1)) ? input : input1;
+        return (input.codePointBefore(1) < input1.codePointBefore(1)) ? input : input1;//comper too
     }
     private static int getMeMin(int a, int b) {
         return (a < b) ? a : b;

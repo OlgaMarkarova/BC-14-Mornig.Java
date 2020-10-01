@@ -37,7 +37,10 @@ public class HWScanner {
                 System.out.println("Вы угадали!!!");
             }
         }
+        if (k==0){
         System.out.println("Попытки закончились");
+        }
+        input.close();
     }
 
 
