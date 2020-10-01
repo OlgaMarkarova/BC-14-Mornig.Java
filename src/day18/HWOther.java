@@ -47,6 +47,7 @@ public class HWOther {
         return 0;
     }
 
+
     private static double numberOfWholeTitle(int lenghtW, int widthW) {         //кол-во плитки целой
         double lenghtTitle = 0.30;
         double widthTitle = 0.20;
