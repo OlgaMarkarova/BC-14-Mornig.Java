@@ -6,7 +6,7 @@ public class HWOther {
         //2.узнать кол-во плитки на 1 кв.м в двух вариантах
         //3.узнать общее кол-во плитки
         //4.узнать стоимость работы
-        //5. узнать примерную общую стоимость. lalala
+        //5. узнать примерную общую стоимость.
         double tile1 = numberOfWholeTitle(2, 3);
         double tile2 = numberOfOtherTitle(30, 20);
         double cost1 = costOfTitle();
