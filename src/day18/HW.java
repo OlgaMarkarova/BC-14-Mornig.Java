@@ -15,7 +15,7 @@ public class HW {
         //Итоговую ориентировочную стоимость
         numberOfWholeTile(30, 20);
         numberOfOtherTile(30, 20);
-        costOfTile();
+        costOfTile();// test
         laborCost(27);
         estimatedCost();
         wallArea(0, 0);
