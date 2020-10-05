@@ -10,10 +10,10 @@ public class Exercises08_01 {
         int max;
         int middle;
         int sum;
-        System.out.println("Миаксимальное - "+myMaxNumbers(arr));
-        System.out.println("Минимальное - "+myMinNumber(arr));
-        System.out.println("Сумма - "+mySumm(arr));
-        System.out.println("Среднее - "+myMiddleNumber(arr));
+        System.out.println("Миаксимальное - " + myMaxNumbers(arr));
+        System.out.println("Минимальное - " + myMinNumber(arr));
+        System.out.println("Сумма - " + mySumm(arr));
+        System.out.println("Среднее - " + myMiddleNumber(arr));
 
     }
 
