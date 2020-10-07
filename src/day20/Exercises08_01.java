@@ -3,23 +3,22 @@ package day20;
 public class Exercises08_01 {
     public static void main(String[] args) {
         //Заполните массив случайным числами и выведете максимальное, минимальное и среднее значение.
-        // Для генерации случайного числа используйте метод Math.random(),
-        // который возвращает значение в промежутке [0, 1].
+
         int[] arr = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int min;
         int max;
-        int middle;
+        double middle;
         int sum;
         System.out.println("Миаксимальное - " + myMaxNumbers(arr));
-        System.out.println("Минимальное - " + myMinNumber(arr));
+        System.out.println("Минимальное - " + myMinNumber(arr));              //лучше getMeMyMin (с глаголом)
         System.out.println("Сумма - " + mySumm(arr));
         System.out.println("Среднее - " + myMiddleNumber(arr));
 
     }
 
-    private static int myMiddleNumber(int[] arr) {
+    private static double myMiddleNumber(int[] arr) {
         int size = arr.length;
-        int middle = mySumm(arr) / size;
+        double middle = (double) mySumm(arr) / size;       //cust
         System.out.println("кол-во " + size);
         return middle;
     }

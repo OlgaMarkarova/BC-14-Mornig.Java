@@ -4,8 +4,8 @@ public class FillAndPrintIntArray {
     public static void main(String[] args) {
         int[] source = new int[]{1, 2, 3, 4, 5};
         myPrintIntArray(source);
-        int myFirstElement = 100;
-        fillArray(source, myFirstElement);
+        int myFillElement = 100;
+        fillArray(source, myFillElement);
         myPrintIntArray(source);
     }
 
@@ -20,6 +20,6 @@ public class FillAndPrintIntArray {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = x;
         }
-
     }
+
 }
