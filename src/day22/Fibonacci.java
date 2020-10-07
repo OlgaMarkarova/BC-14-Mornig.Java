@@ -3,7 +3,7 @@ package day22;
 public class Fibonacci {
     public static void main(String[] args) {
         System.out.println(findFibonacciNormalRecursion(7));
-        //findFibonacciNormal(7);
+        findFibonacciNormal(7);
     }
 
     private static int findFibonacciNormalRecursion(int number) {

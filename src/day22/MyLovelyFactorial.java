@@ -4,7 +4,7 @@ public class MyLovelyFactorial {
     public static void main(String[] args) {
         // System.out.println(getFactorial(7));//120*6*7
         //System.out.println(getFactorial(5));// ожидаю 120
-        //System.out.println(getFactorial(5));
+
         System.out.println(getFactorialRecursion(7));
         System.out.println(getFactorialRecursion(5));
     }
