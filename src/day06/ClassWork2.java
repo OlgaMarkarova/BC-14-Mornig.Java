@@ -5,23 +5,23 @@ public class ClassWork2 {
         makeOutWord("<<>>", "Yau");
         makeOutWord("<<>>", "WooHoo"); //"<<WooHoo>>"
         makeOutWord("[[]]", "word");  // "[[word]]"
-        spleit();
+        split();
 
         System.out.println(firstHalf("WooHoo"));
         System.out.println(firstHalf("HelloThere"));
         System.out.println(firstHalf("abcdef"));
         //System.out.println(firstHalf("aabbc"));
-        spleit();
+        split();
 
         nonStart("Hello", "There"); //→ "ellohere"
         nonStart("java", "code"); //→ "avaode"
         nonStart("shotl", "java"); //→ "hotlava"
-        spleit();
+        split();
 
         System.out.println(middleThree("Candy"));
         System.out.println(middleThree("and"));
         System.out.println(middleThree("solving"));
-        spleit();
+        split();
     }
 
     private static String middleThree(String str) {
@@ -29,7 +29,7 @@ public class ClassWork2 {
         return result;
     }
 
-    public static void spleit() {
+    public static void split() {
         System.out.println("----------");
     }
 

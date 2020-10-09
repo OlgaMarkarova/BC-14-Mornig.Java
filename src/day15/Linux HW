@@ -1,0 +1,18 @@
+localhost:/home# history
+   0 cd /home/
+   1 mkdir -p animals/dogs
+   2 ls
+   3 mkdir -p animals/cats
+   4 mkdir -p animals/fish
+   5 touch animals/dogs/pluto.txt
+   6 touch animals/cats/garfield.txt
+   7 ls /home/animals/
+   8 touch /tmp/adam.txt
+   9 mkdir humans
+  10 cp /tmp/adam.txt humans/
+  11 touch /tmp/evA.txt
+  12 mv /tmp/evA.txt /opt/eve.txt
+  13 ls /opt/
+  14 mv /opt/eve.txt humans/
+  15 ls humans/
+  16 history

@@ -7,7 +7,7 @@ public class ExercisesDelete {
         int[] arr = new int[]{1, 2, 3, 4, 5, 6};
         int index = 3;
         System.out.println(deleteIndexInArray(arr, index));
-        FillAndPrintIntArray.myPrintIntArray(deleteIndexInArray(arr, index));  //разобраться!!!!!
+        FillAndPrintIntArray.myPrintIntArray(deleteIndexInArray(arr, index));
     }
 
     private static int[] deleteIndexInArray(int[] arr, int index) {

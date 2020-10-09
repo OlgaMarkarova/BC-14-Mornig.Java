@@ -4,9 +4,9 @@ public class ClassWorkFor {
     public static void main(String[] args) {
         int lines = 10;
         //triangle(lines);
-        simleString();
+        //simleString();
         System.out.println("Итоговый вывод" + sum(2, 4));
-        System.out.println("Итоговый вывод" + sum(0, 10));
+        //System.out.println("Итоговый вывод" + sum(0, 10));
     }
 
 

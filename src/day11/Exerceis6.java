@@ -45,7 +45,7 @@ public class Exerceis6 {
             for (int y = x; y <= 36; y++) {
                 for (int z = y; z <= 36; z++) {
                     if (x * y * z == 36) {
-                        System.out.println("Вриант, где " + "x=" + x + ",y=" + y + ",  z=" + z);
+                        System.out.println("Вариант, где " + "x=" + x + ",y=" + y + ",  z=" + z);
                     }
                 }
 
