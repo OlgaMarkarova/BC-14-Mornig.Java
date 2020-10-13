@@ -3,7 +3,7 @@ package day13;
 public class ClassWork {
     public static void main(String[] args) {
         myCharAt();
-        //myCoddePoint();
+        myCoddePoint();
         //myCodePointBefore();
         //mycodePointCount();
         //myCompareTo();
@@ -71,6 +71,6 @@ public class ClassWork {
     private static void myCoddePoint() {
         String hm = "Василий";
         int test = hm.codePointAt(1);
-        System.out.println(test);
+        System.out.println("тест"+test);
     }
 }

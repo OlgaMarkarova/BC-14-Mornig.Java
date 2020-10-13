@@ -64,10 +64,10 @@ public class ClassWork {
         return new boolean[0];
     }
 
-    private static int[] middleWay(int[] arr1, int[] input) {
+    private static int[] middleWay(int[] a, int[] b) {
         int[] output = new int[2];
-        output[0] = arr1[1];
-        output[1] = arr1[2];
+        output[0] = a[1];
+        output[1] = b[1];
         return output;
     }
 }

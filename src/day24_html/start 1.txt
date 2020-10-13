@@ -1,0 +1,10 @@
+Start
+Sat Oct 10 19:05:12 UTC 2020
+drwxr-xr-x    5 Olga     Olga          237 Sep 28 12:26 Olga
+drwxr-xr-x    4 Olga     Olga           140 Oct 10 18:54 run
+drwxr-xr-x    2 Olga     Olga          2363 Aug 17 21:14 sbin
+drwxr-xr-x    2 Olga     Olga            37 May 29 16:20 srv
+dr-xr-xr-x   12 Olga     Olga             0 Oct 10 18:54 sys
+drwxrwxrwt    2 Olga     Olga            37 Sep 10 17:39 tmp
+drwxr-xr-x   10 Olga     Olga           229 Jun 24 15:46 usr
+drwxr-xr-x   16 Olga     Olga           348 Aug 27 13:00 var
