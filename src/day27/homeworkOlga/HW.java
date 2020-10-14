@@ -1,4 +1,4 @@
-package day27;
+package day27.homeworkOlga;
 
 public class HW {
     public static void main(String[] args) {
