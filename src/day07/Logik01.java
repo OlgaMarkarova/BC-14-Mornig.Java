@@ -33,7 +33,7 @@ public class Logik01 {
         return omaPermission || smartDepositBoxVersionTwo(mamaPermission, papaPermission);
     }
 
-    private static void split() {
+    public static void split() {
         System.out.println("---------------");
     }
 

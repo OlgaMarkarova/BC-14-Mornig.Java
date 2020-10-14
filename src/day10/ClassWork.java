@@ -2,7 +2,7 @@ package day10;
 
 public class ClassWork {
     public static void main(String[] args) {
-        //issuueFor();
+        issuueFor();
         //0 до 100, делятся на 6 без остатка
         findVeryGreatNumber(0, 100);
     }

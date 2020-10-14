@@ -49,9 +49,7 @@ public class ClassWork {
         int size = hausmaster.length();
         System.out.println(hausmaster.charAt(4));
         System.out.println(hausmaster.charAt(size-1));
-        String output
-                = ""+hausmaster.charAt(0)
-                + hausmaster.charAt(size-1);
+        String output = ""+hausmaster.charAt(0) + hausmaster.charAt(size-1);
         System.out.println(output);
     }
 
