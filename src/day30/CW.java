@@ -1,6 +1,6 @@
 package day30;
 
-public class classWork {
+public class CW {
     public static void main(String[] args) {
         System.out.println(countX("xxhixx"));// →4
         System.out.println(countX("xhixhix"));// →3

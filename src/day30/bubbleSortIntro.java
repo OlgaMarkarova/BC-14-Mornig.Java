@@ -2,7 +2,7 @@ package day30;
 
 import day20.FillAndPrintIntArray;
 
-public class BubbleSortIntro {
+public class bubbleSortIntro {
     public static void main(String[] args) {
         int[] array = new int[]{100, 45, 1, 38, 56, 75};
         //100,45
