@@ -1,0 +1,64 @@
+body{
+    background-color: burlywood;
+}
+
+h1{
+    background-color: coral ;
+    color: cyan;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 200px;
+}
+h3{
+    color: darkorchid;
+    font-family:"Source Code Pro", 
+    Menlo, Monaco, fixed-width;
+}
+p{
+    color: rgb(217, 255, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.second_article{
+    background-color: hotpink;
+}
+
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  ul{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  img{
+      border-radius: 50px;
+      width: 500px;
+      height: auto;
+      margin-left: 200px;
+      border-color: rgb(130, 0, 54);
+      border-width:  5px;
+      border-style: solid;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row {
+    display: flex;
+  }
+  h2{
+    margin-left: 500px;
+    color: lightcoral;
+  }

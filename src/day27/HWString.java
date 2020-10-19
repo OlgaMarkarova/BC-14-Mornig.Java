@@ -8,19 +8,9 @@ public class HWString {
     }
 
     private static String doubleChar(String input) {
-        String output = "";
-        int number = 2;
-        for (int i = 0; i < number; i++) {
-            output+= input.substring(0,input.length()-1);
-            /*String output = "";
-            for (int i = number; i > 0; i--) {
-                output = output + str.substring(0, i);*/
-
-                //output += input.charAt(0);
-            //output = input.charAt(i);
-                    //input.charAt(i) + input.charAt(i);
-            //System.out.println("Шаги и значения " + i);
+        String result = "";
+        for (int i = 0; i < input.length(); i++) {
         }
-        return output;
+        return result;
     }
 }

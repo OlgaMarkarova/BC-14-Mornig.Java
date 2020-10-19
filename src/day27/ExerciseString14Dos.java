@@ -11,7 +11,7 @@ public class ExerciseString14Dos {
         char star = '*';
         int x1 = input.indexOf(star);
         int x2 = input.lastIndexOf(star);
-        output = input.substring(0, x1 - 1) + input.substring(x2 + 2);
+        output = input.substring(0, input.indexOf(star) - 1) + input.substring(input.lastIndexOf(star) + 2);
         return output;
     }
 }
