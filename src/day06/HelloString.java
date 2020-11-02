@@ -6,9 +6,9 @@ public class HelloString {
        student1 = "Elene Prekrasnay";
        student2 = "Ivan Durak";
 
-        helloUser(student1);
-        helloUser(student2);
-        helloUser("Andrey");
+        //helloUser(student1);
+        //helloUser(student2);
+       // helloUser("Andrey");
         char c1 = 150;
         char c2 = (char) (c1+20);
         System.out.println("" + c1 + 10);

@@ -14,19 +14,19 @@ public class bubbleSortDouble {
         System.out.println(Arrays.toString(newArray));
     }
 
-    private static void bubbleSortDouble(double[] inputArrUnsortit) {
+    private static void bubbleSortDouble(double[] inputArrUnsorted) {
         int count = 0;
-        for (int i = 0; i < inputArrUnsortit.length - 1; i++) {
-            if (inputArrUnsortit[i] <= inputArrUnsortit[i + 1]) {
+        for (int i = 0; i < inputArrUnsorted.length - 1; i++) {
+            if (inputArrUnsorted[i] <= inputArrUnsorted[i + 1]) {
                 continue;
             }
-            double temp = inputArrUnsortit[i];
-            inputArrUnsortit[i] = inputArrUnsortit[i + 1];
-            inputArrUnsortit[i + 1] = temp;
+            double temp = inputArrUnsorted[i];
+            inputArrUnsorted[i] = inputArrUnsorted[i + 1];
+            inputArrUnsorted[i + 1] = temp;
             count++;
         }
         if (count > 0) {
-            bubbleSortDouble(inputArrUnsortit);
+            bubbleSortDouble(inputArrUnsorted);
         }
     }
 

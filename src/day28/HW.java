@@ -31,13 +31,11 @@ public class HW {
         //System.out.println(catDog("catdog"));// → true
         //System.out.println(catDog("catcat"));// → false
         //System.out.println(catDog("1cat1cadodog"));// → true
-        split();
-
-        System.out.println("String 02_15_1");
 
         System.out.println(count("catdog"));
         System.out.println(count("catcat"));
         System.out.println(count("1cat1cadodog"));
+        System.out.println(count("1dog1cadodog"));
         split();
 
         System.out.println("String 02_16");

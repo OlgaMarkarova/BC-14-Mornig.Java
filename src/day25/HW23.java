@@ -31,9 +31,9 @@ public class HW23 {
         return output;
     }
 
-    private static String repeatSeparator(String str1, String str2, int numer) {
+    private static String repeatSeparator(String str1, String str2, int number) {
         String outputStr = "";
-        for (int i = 0; i < numer - 1; i++) {
+        for (int i = 0; i < number - 1; i++) {
             outputStr += str1 + str2;
         }
         outputStr += str1;

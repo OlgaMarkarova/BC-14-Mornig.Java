@@ -10,8 +10,15 @@ public class CWString {
         System.out.println(prefixAgain("abXYabc", 3));// →false
     }
 
-    private static boolean prefixAgain(String abXYabc, int i) {
-
+    private static boolean prefixAgain(String str, int n) {
+        String prefix = str.substring(0, n);
+        for (int i = n; i < str.length(); i++) {
+            if (n + i <= str.length()) {
+                if (prefix.equals(str.substring(i, n + i))) {
+                    return true;
+                }
+            }
+        }
         return false;
     }
 }

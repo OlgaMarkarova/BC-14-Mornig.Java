@@ -9,18 +9,23 @@ public class Task12 {
         4. Найти кол-во символов после 'xyz'
         */
         System.out.println(xyzMiddle("AAxyzBB"));// → true
-        System.out.println(xyzMiddle("AxyzBB"));//→ true
-        System.out.println(xyzMiddle("AxyzBBB"));// → false
+        //System.out.println(xyzMiddle("AxyzBB"));//→ true
+       // System.out.println(xyzMiddle("AxyzBBB"));// → false
     }
 
     private static boolean xyzMiddle(String input) {
         String xyz = "xyz";
         int xyzStart = input.indexOf(xyz);
         int xyzEnd = xyzStart + 2;
-        int counySymbolsStart = xyzStart;
+        int countSymbolsStart = xyzStart;
         int countSymbolEnd = input.length() - 1 - xyzEnd;
-        int difference = Math.abs(counySymbolsStart - countSymbolEnd);
-        System.out.println("difference "+difference);
+        int difference = Math.abs(countSymbolsStart - countSymbolEnd);
+        //System.out.println("difference "+difference);
+        //System.out.println("input.length() - 1 - xyzEnd "+(input.length() - 1 - xyzEnd));
+        //System.out.println("countSymbolsStart "+countSymbolsStart);
+        //System.out.println("xyzEnd "+xyzEnd);
+        //System.out.println("xyzStart "+xyzStart);
+        //System.out.println("input.indexOf(xyz) "+input.indexOf(xyz));
         if (difference <= 1) {
             return true;
         }

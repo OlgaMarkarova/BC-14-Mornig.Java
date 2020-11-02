@@ -7,9 +7,9 @@ public class HW<output> {
         //Given two strings, word and a separator sep,
         //return a big string made of count occurrences of the word, separated by the
         //separator string.
-        System.out.println(repeatSeparator("Word", "X", 3));// → "WordXWordXWord"
-        System.out.println(repeatSeparator("This", "And", 2));// → "ThisAndThis"
-        System.out.println(repeatSeparator("This", "And", 1));// → "This"
+        //System.out.println(repeatSeparator("Word", "X", 3));// → "WordXWordXWord"
+        //System.out.println(repeatSeparator("This", "And", 2));// → "ThisAndThis"
+        //System.out.println(repeatSeparator("This", "And", 1));// → "This"
 
         //A sandwich is two pieces of bread with something in between.
         //Return the string that is between the first and last
@@ -20,9 +20,9 @@ public class HW<output> {
         //Верните string, который находится между первым и последним появлением «хлеба» в данноm string,
         //или верните пустую строку «», если нет двух кусков хлеба.
 
-        System.out.println(getSandwich("breadjambread"));// → "jam"
-        System.out.println(getSandwich("xxbreadjambreadyy"));// → "jam"
-        System.out.println(getSandwich("xxbreadyy"));// → ""
+        //System.out.println(getSandwich("breadjambread"));// → "jam"
+        //System.out.println(getSandwich("xxbreadjambreadyy"));// → "jam"
+        //System.out.println(getSandwich("xxbreadyy"));// → ""
 
         //Ищите шаблоны, такие как «zip» и «zap» в string - length-3,
         //начиная с «z» и заканчивая «p». Вернуть строку, где для
@@ -94,10 +94,10 @@ public class HW<output> {
     }
 
     private static int[] front11(int[] a, int[] b) {
-        int[] output = new int[2];
+        /*int[] output = new int[2];
         output[0] = a[0];
-        output[1] = b[0];
-        return output;
+        output[1] = b[0];*/
+        return a;
     }
 
     private static int[] frontPiece(int[] input) {
