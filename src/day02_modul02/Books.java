@@ -6,9 +6,7 @@ public class Books {
     String title;
     String author;
     String publishingHouse;
-    String category;
-    int year;
-    int numberOfCopies;
+    int numberOfCopiesInStore;
     int numberOfCopiesSold;
     int availability;
 
@@ -16,28 +14,24 @@ public class Books {
 
     }
 
-    void checkStoreAvailability(String booksTitle, int numberOfCopies, int numberOfCopiesSold) {
+    void checkStoreAvailability(int numberOfCopies, int numberOfCopiesSold) {
         availability = numberOfCopies - numberOfCopiesSold;
-        System.out.println("На складе в наличии: " + availability + " копий ");
+        System.out.println("На складе осталось: " + availability + " копий ");
         split();
     }
 
-    public Books(String booksTitle, String booksAuthor, String booksCategory) {
+    public Books(String booksTitle, String booksAuthor) {
         title = booksTitle;
         author = booksAuthor;
-        year = 2009;                      // yearOfBooksPublication;
-        numberOfCopies = 2000;            // booksCopy;
-        numberOfCopiesSold = 1990;        // booksCopySold;
+        numberOfCopiesInStore = 2000;                   // booksCopy;
+        numberOfCopiesSold = 1990;              // booksCopySold;
         publishingHouse = "АСТ";                // bookPublisher;
-        category = booksCategory;
     }
 
     void displayInfo() {
-        System.out.println("Серия книг: " + category);
         System.out.println("Название книги: " + title);
         System.out.println("Автор книги: " + author);
-        System.out.println("Год издания книги: " + year);
-        System.out.println("Колличесво копий книги: " + numberOfCopies);
+        System.out.println("Колличесво копий книги: " + numberOfCopiesInStore);
         System.out.println("Издательство книги: " + publishingHouse);
         split();
     }
@@ -45,46 +39,42 @@ public class Books {
 
 class BooksTest {
     public static void main(String[] args) {
-        Books book = new Books("Евгений Онегин", "Александр Пушкин", "Классика русской литературы");
+        Books book = new Books("Евгений Онегин", "Александр Пушкин");
         book.displayInfo();
-        book.checkStoreAvailability("Евгений Онегин", 2000, 2000);
+        book.checkStoreAvailability(2000, 1900);
 
         Books myBook1 = new Books();
-        myBook1.category = "Классика русской литературы";
         myBook1.title = "Анна Каренина";
         myBook1.author = "Лев Толстой";
-        myBook1.year = 2010;
-        myBook1.numberOfCopies = 2000;
+        myBook1.numberOfCopiesInStore = 2000;
         myBook1.numberOfCopiesSold = 1500;
         myBook1.publishingHouse = "АСТ Москва";
         myBook1.displayInfo();
+        myBook1.checkStoreAvailability(2000, 1500);
 
         Books myBook2 = new Books();
-        myBook2.category = "Классика русской литературы";
         myBook2.title = "Мастер и Маргарита";
         myBook2.author = "Михаил Булгаков";
-        myBook2.year = 2012;
-        myBook2.numberOfCopies = 3000;
+        myBook2.numberOfCopiesInStore = 3000;
         myBook2.publishingHouse = "Астрель";
         myBook2.displayInfo();
+        myBook1.checkStoreAvailability(3000, 2500);
 
         Books myBook3 = new Books();
-        myBook3.category = "Классика русской литературы";
         myBook3.title = "Преступление и наказание";
         myBook3.author = "Фёдор Достоевский";
-        myBook3.year = 2009;
-        myBook3.numberOfCopies = 2500;
+        myBook3.numberOfCopiesInStore = 2500;
         myBook3.publishingHouse = "АСТ Москва";
         myBook3.displayInfo();
+        myBook1.checkStoreAvailability(2500, 2400);
 
         Books myBook4 = new Books();
-        myBook4.category = "Классика русской литературы";
         myBook4.title = "Идиот";
         myBook4.author = "Фёдор Достоевский";
-        myBook4.year = 2010;
-        myBook4.numberOfCopies = 7000;
+        myBook4.numberOfCopiesInStore = 7000;
         myBook4.publishingHouse = "Азбука-классика";
         myBook4.displayInfo();
+        myBook1.checkStoreAvailability(7000, 5500);
     }
 }
 
