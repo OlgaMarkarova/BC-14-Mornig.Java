@@ -1,4 +1,4 @@
-package day02_modui02;
+package day02_modul02;
 
 import static day07.Logik01.split;
 
@@ -77,7 +77,6 @@ class BooksTest {
         myBook3.publisher = "АСТ Москва";
         myBook3.displayInfo();
 
-        split();
         Books myBook4 = new Books();
         myBook4.category = "Классика русской литературы";
         myBook4.title = "Идиот";
@@ -86,7 +85,6 @@ class BooksTest {
         myBook4.numberOfCopies = 7000;
         myBook4.publisher = "Азбука-классика";
         myBook4.displayInfo();
-        split();
     }
 }
 

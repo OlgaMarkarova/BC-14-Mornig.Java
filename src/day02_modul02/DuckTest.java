@@ -1,4 +1,4 @@
-package day02_modui02;
+package day02_modul02;
 
 public class DuckTest {
     public static void main(String[] args) {
