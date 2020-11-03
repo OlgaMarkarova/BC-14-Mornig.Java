@@ -5,7 +5,7 @@ import static day07.Logik01.split;
 public class Books {
     String title;
     String author;
-    String publisher;
+    String publishingHouse;
     String category;
     int year;
     int numberOfCopies;
@@ -28,7 +28,7 @@ public class Books {
         year = 2009;                      // yearOfBooksPublication;
         numberOfCopies = 2000;            // booksCopy;
         numberOfCopiesSold = 1990;        // booksCopySold;
-        publisher = "АСТ";                // bookPublisher;
+        publishingHouse = "АСТ";                // bookPublisher;
         category = booksCategory;
     }
 
@@ -38,7 +38,7 @@ public class Books {
         System.out.println("Автор книги: " + author);
         System.out.println("Год издания книги: " + year);
         System.out.println("Колличесво копий книги: " + numberOfCopies);
-        System.out.println("Издательство книги: " + publisher);
+        System.out.println("Издательство книги: " + publishingHouse);
         split();
     }
 }
@@ -56,7 +56,7 @@ class BooksTest {
         myBook1.year = 2010;
         myBook1.numberOfCopies = 2000;
         myBook1.numberOfCopiesSold = 1500;
-        myBook1.publisher = "АСТ Москва";
+        myBook1.publishingHouse = "АСТ Москва";
         myBook1.displayInfo();
 
         Books myBook2 = new Books();
@@ -65,7 +65,7 @@ class BooksTest {
         myBook2.author = "Михаил Булгаков";
         myBook2.year = 2012;
         myBook2.numberOfCopies = 3000;
-        myBook2.publisher = "Астрель";
+        myBook2.publishingHouse = "Астрель";
         myBook2.displayInfo();
 
         Books myBook3 = new Books();
@@ -74,7 +74,7 @@ class BooksTest {
         myBook3.author = "Фёдор Достоевский";
         myBook3.year = 2009;
         myBook3.numberOfCopies = 2500;
-        myBook3.publisher = "АСТ Москва";
+        myBook3.publishingHouse = "АСТ Москва";
         myBook3.displayInfo();
 
         Books myBook4 = new Books();
@@ -83,7 +83,7 @@ class BooksTest {
         myBook4.author = "Фёдор Достоевский";
         myBook4.year = 2010;
         myBook4.numberOfCopies = 7000;
-        myBook4.publisher = "Азбука-классика";
+        myBook4.publishingHouse = "Азбука-классика";
         myBook4.displayInfo();
     }
 }

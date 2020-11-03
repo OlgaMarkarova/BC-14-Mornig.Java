@@ -38,12 +38,12 @@ public class Person {
 
 class PersonTest {
     public static void main(String[] args) {
-        Person hausMeister = new Person();
-        hausMeister.name = "Vasili";
-        hausMeister.weight = 100;
-        hausMeister.height = 200;
-        hausMeister.findBMI();
-        hausMeister.displayInfo();
+        Person houseMeister = new Person();
+        houseMeister.name = "Vasili";
+        houseMeister.weight = 100;
+        houseMeister.height = 200;
+        houseMeister.findBMI();
+        houseMeister.displayInfo();
 
         Person user = new Person("Vasili", 100, 200);
         user.displayInfo();
