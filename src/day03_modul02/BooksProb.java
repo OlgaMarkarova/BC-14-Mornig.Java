@@ -1,6 +1,6 @@
 package day03_modul02;
 
-public class Books2 {
+class Books2 {
     private String title;
     private String author;
     private String publishingHouse;

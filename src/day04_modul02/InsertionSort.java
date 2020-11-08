@@ -14,26 +14,24 @@ public class InsertionSort {
     //{4, 5, 6, 17, 30}
     public static void main(String[] args) {
         System.out.println("Сортировка массива с помощью 'Сортировка вставками'");
-        int[] array = {22, 100, 65, 78, 45, 87};
+        int[] array = {22, 100, 48, 47, 46, 45, 50};
+        System.out.println(Arrays.toString(array));
         insertionSortImperative(array);
         System.out.println(Arrays.toString(array));
     }
 
-    private static void insertionSortImperative(int[] sobranieSochinenij) {
-        for (int i = 1; i < sobranieSochinenij.length; i++) {  // идем с элемента с индексом 1, 0-элемнт всегда отсортирован
-            int knigaVRukach = sobranieSochinenij[i]; //временная переменная, кот.хранит значение от i
-            int pervajKnigaNaPolke = i - 1; //цикл не с нуля
-            while (pervajKnigaNaPolke >= 0 && sobranieSochinenij[pervajKnigaNaPolke] > knigaVRukach) {
-                sobranieSochinenij[pervajKnigaNaPolke + 1] = sobranieSochinenij[pervajKnigaNaPolke];
-                //присвоили значение
-                pervajKnigaNaPolke = pervajKnigaNaPolke - 1;
-                // index - место в полке
-                //bookToProof-книга в руках
+    private static void insertionSortImperative(int[] input) {
+        for (int i = 1; i < input.length; i++) {  // идем с элемента с индексом 1, 0-элемнт всегда отсортирован
+            int temp = input[i]; //временная переменная, кот.хранит значение от i
+            int location = i - 1; //цикл не с нуля
+            while (location >= 0 && input[location] > temp) {
+                input[location + 1] = input[location];
+                location = location - 1;
             }
-            sobranieSochinenij[pervajKnigaNaPolke + 1] = knigaVRukach;
+            input[location + 1] = temp;
         }
     }
-
-
-
 }
+
+
+
