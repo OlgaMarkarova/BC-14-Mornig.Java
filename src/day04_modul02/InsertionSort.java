@@ -22,13 +22,13 @@ public class InsertionSort {
 
     private static void insertionSortImperative(int[] input) {
         for (int i = 1; i < input.length; i++) {  // идем с элемента с индексом 1, 0-элемнт всегда отсортирован
-            int temp = input[i]; //временная переменная, кот.хранит значение от i
+            int bookToProof = input[i]; //временная переменная, кот.хранит значение от i
             int location = i - 1; //цикл не с нуля
-            while (location >= 0 && input[location] > temp) {
+            while (location >= 0 && input[location] > bookToProof) {
                 input[location + 1] = input[location];
                 location = location - 1;
             }
-            input[location + 1] = temp;
+            input[location + 1] = bookToProof;
         }
     }
 }

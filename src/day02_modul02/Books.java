@@ -153,7 +153,7 @@ class BooksTest {
     }
 
     private static void yearInsertionSort(Books[] input) {
-        for (int i = 0; i < input.length; i++) {
+        for (int i = 1; i < input.length; i++) {
             Books temp = input[i];
             for (int j = i; j > 0; j--) {
                 if (input[j].getYearOfPublishing() < input[j - 1].getYearOfPublishing()) {

@@ -13,12 +13,12 @@ public class TestSort {
 
     private static void insertionSortImperative(int[] input) {
         for (int i = 1; i < input.length; i++) {
-            int temp = input[i];
-            for (int j = i; j > 0; j--) {
-                if (input[j] < input[j - 1]) {
-                    input[j] = input[j - 1];
-                    input[j - 1] = temp;
-                } else if (input[j] > input[j - 1]) {
+            int bookToProof = input[i];
+            for (int location = i; location > 0; location--) {
+                if (input[location] < input[location - 1]) {
+                    input[location] = input[location - 1];
+                    input[location - 1] = bookToProof;
+                } else if (input[location] > input[location - 1]) {
                     break;
                 }
             }
